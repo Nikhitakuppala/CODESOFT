@@ -1,0 +1,100 @@
+body,h1,h2,h3,p,ul{
+    margin: 1px;
+    padding: 4px;
+}
+body{
+    font-family:'Times New Roman', Times, serif,sans-serif;
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+}
+header h1{
+    color: blue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+nav ul{
+    list-style-type: upper-latin;
+}
+nav ul li{
+    display: inline;
+    margin-right: 25px;
+}
+nav ul li a{
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: #f27;
+}
+nav ul li .active{
+    background-color: #f27;
+}
+.fa-square-twitter{
+    font-size: 50px;
+    color: lightskyblue;
+}
+.fa-facebook{
+    font-size: 50px;
+    color: blue;
+}
+.fa-instagram{
+    font-size: 50px;
+    color: #f27;
+}
+.fa-linkedin{
+    font-size: 20px;
+}
+.fa-youtube{
+    font-size: 50px;
+    color: red;
+}
+section{
+    padding: 55px;
+}
+section h2{
+    color: red;
+}
+section h1{
+    color:brown;
+}
+section ol{
+    color: purple;
+}
+#about{
+    flex: 1;
+}
+.student-photo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.student-photo img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
